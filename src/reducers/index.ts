@@ -1,6 +1,6 @@
-import { combineReducers } from 'redux'
-import { RouterState } from 'connected-react-router'
-import counterReducer from './counter'
+import { combineReducers } from 'redux';
+import { RouterState } from 'connected-react-router';
+import counterReducer from './counter';
 
 const rootReducer = combineReducers({
   count: counterReducer,
